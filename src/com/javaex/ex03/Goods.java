@@ -10,26 +10,26 @@ public class Goods {
 	// 생성자
 
 	// 메소드
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getName() {
 		return name;
 	}
 
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 
 	public int getPrice() {
 		return price;
 	}
 
-	//정보출력
+	// 정보출력
 	public void showInfo() {
-		System.out.println("상품이름 : " + name);
-		System.out.println("가격 : " + price);
+		System.out.println("상품이름 : " + this.name);
+		System.out.println("가격 : " + this.price);
 		System.out.println("--------------------");
 	}
 
