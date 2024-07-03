@@ -4,36 +4,29 @@ public class SongApp {
 
 	public static void main(String[] args) {
 
-		Song iU = new Song("좋은날", "아이유", "Real", "이민수", 2010, 3);
-		Song bigbang = new Song();
-		Song busker = new Song();
+		Song s01 = new Song();
 
-//		iU.setTitle("좋은날");
-//		iU.setArtist("아이유");
-//		iU.setAlbum("Real");
-//		iU.setComposer("이민수");
-//		iU.setYear(2010);
-//		iU.setTrack(3);
+		s01.setTitle("좋은날");
+		s01.setArtist("아이유");
+		s01.setAlbum("Real");
+		s01.setComposer("이민수");
+		s01.setYear(2010);
+		s01.setTrack(3);
 
-		bigbang.setTitle("거짓말");
-		bigbang.setArtist("BIGBANG");
-		bigbang.setAlbum("Always");
-		bigbang.setComposer("G-DRAGON");
-		bigbang.setYear(2007);
-		bigbang.setTrack(2);
+		System.out.println("----------------------------------------");
 
-		busker.setTitle("벚꽃엔딩");
-		busker.setArtist("버스커버스커");
-		busker.setAlbum("버스커버스커1집");
-		busker.setComposer("장범준");
-		busker.setYear(2012);
-		busker.setTrack(4);
+		// 5개 //Song(5)
+		Song s02 = new Song("거짓말", "BIGBANG", "Always", "G-DRAGON", 2007);
+		s02.setTrack(2);
+		/*
+		  System.out.println(s01.toString());
+		  System.out.println(s02.toString());
+		 */
 
-		iU.showInfo();
-		bigbang.showInfo();
-		busker.showInfo();
+		System.out.println("-----------------------------------------");
 
-		// System.out.println(iu.toString());
+		// 6개 //Song(5) Song(6)
+		Song s03 = new Song("벚꽃엔딩", "버스커버스커", "버스커버스커1집", "장범준", 2012, 4);
 
 	}
 
