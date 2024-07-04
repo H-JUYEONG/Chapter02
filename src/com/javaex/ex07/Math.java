@@ -19,6 +19,11 @@ public class Math {
 		return sum;
 	}
 	
+	public int plu(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+	
 	public double plus(double a, int b) {
 		double sum = a + b;
 		return sum;

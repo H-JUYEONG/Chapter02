@@ -7,6 +7,7 @@ public class MathApp {
 		Math math = new Math();
 
 		System.out.println(math.plus(5.2, 4));
+		System.out.println(math.plu(9, 4));
 		System.out.println(math.plus(4, 4));
 		System.out.println(math.plus(3.2, 5.4));
 		System.out.println(math.plus(100, 1.222));
