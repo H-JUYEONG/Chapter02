@@ -1,4 +1,4 @@
-package com.javaex.ex11;
+package com.javaex.ex12;
 
 public class Point {
 
