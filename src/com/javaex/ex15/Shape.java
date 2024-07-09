@@ -1,6 +1,6 @@
 package com.javaex.ex15;
 
-public class Shape {
+public abstract class Shape {
 
 	// 필드
 	protected String fillColor;
@@ -36,8 +36,18 @@ public class Shape {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 	
+	/*
 	public void draw() {
-		System.out.println("사용하지 마세요");
+		System.out.println("오버라이딩용입니다.");
 	}
+	*/
 	
+	// 오버라이딩 전용: abstract 예약어 사용, 내용을 포현하는곳이 없다.
+	public abstract void draw();
+	
+	/*
+	 abstract 메소드를 가지고 있는 클래스는 메모리에 올릴수 없다.
+	 따라서 클래스에도 abstract 예약어 사용
+	 상속 전용
+	*/
 }

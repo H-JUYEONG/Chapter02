@@ -43,5 +43,6 @@ public class ShapeApp {
 		
 		System.out.println(((Circle)s02).getRadius());
 		System.out.println(((Rectangle)s01).getWidth());
+
 	}
 }
